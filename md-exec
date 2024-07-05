@@ -1,6 +1,6 @@
 #!/bin/bash
 # remember to call "./addapps .getver" after version modifications!
-VERSION="1.0.1"
+VERSION="1.0.2"
 
 
 show_help() {
