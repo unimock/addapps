@@ -50,7 +50,7 @@ while [ "$#" -gt 0 ]; do
   case "$1" in
     -h|--help)      show_help        ; exit 0 ;;
     -v|--version)   echo "$VERSION"  ; exit 0 ;;
-    -o|--overwrite) opt_args+=($1)   ; shift  ;;
+    -o|--overwrite) opt_args+=($2)   ; shift  ;;
     -e|--envsubst)  opt_envsubst=1   ; shift  ;;
     *)   CURROPT="$CURROPT \"$1\"" ; shift 1 ;;
   esac
